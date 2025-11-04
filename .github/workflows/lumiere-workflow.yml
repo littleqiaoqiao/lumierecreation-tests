@@ -1,6 +1,9 @@
 name: nightly executed test workflow for Lumiere Creation, on push for now
 
-on: push
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   run-playwright-tests:
