@@ -29,5 +29,5 @@ jobs:
       - name: Run all Playwright test scripts
         run: |
           cd "tests"
-          pytest --browser chromium --headed -v
+          pytest --browser chromium -v
           done
