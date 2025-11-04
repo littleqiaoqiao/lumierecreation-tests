@@ -30,4 +30,3 @@ jobs:
         run: |
           cd "tests"
           pytest --browser chromium -v
-          done
