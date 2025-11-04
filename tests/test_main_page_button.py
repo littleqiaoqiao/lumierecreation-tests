@@ -29,3 +29,4 @@ def test_search_table_price(min_price):
 
         context_search.close()
         browser.close()
+        #
