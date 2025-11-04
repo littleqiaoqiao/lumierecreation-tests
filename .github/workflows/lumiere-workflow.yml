@@ -1,0 +1,5 @@
+name: nightly executed test workflow for Lumiere Creation
+
+on:
+    schedule:
+        - cron: 
